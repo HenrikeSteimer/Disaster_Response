@@ -58,8 +58,8 @@ def build_model():
         ])
     
     parameters = {
-        'clf__estimator__criterion': ['gini', 'entropy'],
-        'clf__estimator__max_depth': [2, 5, None],
+        'clf__estimator__criterion': ['gini'],
+        'clf__estimator__max_depth': [2, 5],
         'clf__estimator__n_estimators': [10, 20, 50]
     }
 
