@@ -6,7 +6,7 @@
     
     b. `source/ML Pipeline Preparation.ipynb` trains the model.
 
-2. The code further creates a webapp that can be used to classify new incoming messages and predicts which categories the messages might belong to. For files to create web page where messages can be classified, see "app" folder. Run the following commands in the project's root directory to set up your database and model.
+2. The code further creates a webapp that can be used to classify new incoming messages and predicts which categories the messages might belong to. For files to create the web page where messages can be classified, see the "app" folder. Run the following commands in the project's root directory to set up database and model.
 
     a. To run ETL pipeline that cleans data and stores in database
     
