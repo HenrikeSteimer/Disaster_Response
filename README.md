@@ -10,11 +10,11 @@
 
     a. To run ETL pipeline that cleans data and stores in database
     
-        `python data/process_etl.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+        `python app/data/process_etl.py app/data/disaster_messages.csv app/data/disaster_categories.csv app/data/DisasterResponse.db`
     b. To run ML pipeline that trains classifier and saves
     
-        `python models/process_ml.py data/DisasterResponse.db models/classifier.pkl`
+        `python app/models/process_ml.py app/data/DisasterResponse.db app/models/classifier.pkl`
 
-    c. Run the following command in the app's directory to run your web app: `python run.py`
+    c. Run the following command in the app's directory to run your web app: `python app/run.py`
 
     d. Go to http://0.0.0.0:3001/
